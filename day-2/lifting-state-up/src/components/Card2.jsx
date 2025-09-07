@@ -3,7 +3,7 @@ import React from 'react'
 function Card2({text}) {
   return (
     <div >
-        <p>you typed : {text}</p>
+      <h1>i am in different component you typed : {text}</h1>
     </div>
   )
 }

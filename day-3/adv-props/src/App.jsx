@@ -3,19 +3,18 @@ import Card from './Components/Card'
 
 function App() {
   const [count, setCount] = useState(0)
+
   const userData = {
     name :"taher ali",
-    age : 18,
+    age : 18,                  
     email: "xyx@gmail.com,"
   };
+
   const data = ['apple','ball','cat','dog'];
+
   return (
     <>
-      {/* passing objects */}
-      {/* <Card object={userData}/> */}
-      
-      {/* passing array */}
-      <Card array ={data}/>
+      <Card array ={data} object={userData}/>
     </>
   )
 }

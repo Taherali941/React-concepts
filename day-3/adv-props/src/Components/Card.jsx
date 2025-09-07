@@ -1,14 +1,15 @@
 import React from 'react'
 
-const Card = ({array}) => {
+const Card = ({array,object}) => {
   return (
     <div>
-        {/* <p>this the content from app.jsx object</p>
-        <h1>{object.name}</h1>
-        <h1>{object.age}</h1>
-        <h1>{object.email}</h1> */}
+        <p>this is the content from app.jsx object</p>
+        <h5>{object.name}</h5>
+        <h5>{object.age}</h5>
+        <h5>{object.email}</h5> 
 
         <ul>
+          <p>this is the content from app.jsx Array</p>
             {array.map((item,index) => <li key={index}> {item} </li> )}
         </ul>
     </div>
