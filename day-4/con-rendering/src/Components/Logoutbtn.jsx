@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Logout = () => {
+const Logoutbtn = () => {
   return (
     <div>
         <h1>this is logout page</h1>
@@ -9,4 +9,4 @@ const Logout = () => {
   )
 }
 
-export default Logout
+export default Logoutbtn
