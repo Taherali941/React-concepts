@@ -1,0 +1,32 @@
+.mm{
+    width: 350px;
+    height: 360px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+h1{
+    text-transform: uppercase;
+    margin-top: 15px;
+}a
+p{
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+button{
+    background-color: rgb(61, 61, 255);
+    border: none;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    width: 110px;
+    border-radius: 15px;
+    color: aqua;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 110px;
+    width: auto;
+}
